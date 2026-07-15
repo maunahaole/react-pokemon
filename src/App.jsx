@@ -3,7 +3,7 @@ import {useState} from "react";
 
 function App(){
 
-  const [image, setImage] = useState(null);
+  const [image, setImage] = useState("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png");
 
 
   async function handleClick(){
